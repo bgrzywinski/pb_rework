@@ -22,7 +22,7 @@ const Profiles = () => {
         <div className="flex gap-8">
         <div className="w-32 h-32 relative">
         <Image
-              src="/assets/pawel.JPG"
+              src="/assets/pawel.jpg"
               alt="ig"
               className="object-cover rounded-[100%]"
               layout="fill"
