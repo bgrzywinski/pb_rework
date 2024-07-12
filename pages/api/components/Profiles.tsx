@@ -13,8 +13,8 @@ const Profiles = () => {
             
             />
           </div>
-          <div>
-            <h1 className="2xl:text-[1.2rem] text-[1rem] font-bold">KAMIL KURAN</h1>
+          <div className="2xl:text-[16px] text-[14px]">
+            <h1 className="font-bold">KAMIL KURAN</h1>
             <p>513301029</p>
             <p>WOJ. MAZOWIECKIE</p>
             </div>
@@ -29,8 +29,8 @@ const Profiles = () => {
             
             />
         </div>
-        <div>
-          <h1 className="2xl:text-[1.2rem] text-[1rem] font-bold">PAWEŁ ŻYWIECKI</h1>
+        <div className="2xl:text-[16px] text-[14px]">
+          <h1 className="font-bold">PAWEŁ ŻYWIECKI</h1>
           <p>733260140</p>
           <p>WOJ.MAZOWIECKIE</p>
         </div>
@@ -45,8 +45,8 @@ const Profiles = () => {
             
             />
           </div>
-          <div>
-          <h1 className="2xl:text-[1.2rem] text-[1rem] font-bold">BARTEK GRZYWIŃSKI</h1>
+          <div className="2xl:text-[16px] text-[14px]">
+          <h1 className="font-bold">BARTEK GRZYWIŃSKI</h1>
           <p>798739756</p>
           <p>WOJ.POMORSKIE</p>
           </div>

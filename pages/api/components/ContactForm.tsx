@@ -73,14 +73,14 @@ const ContactForm: FC<ContactFormProps> = ({ onFormSubmit }) => {
       >
         <FormInput
           error={errors.name}
-          label="Imię"
-          className="w-full 2xl:p-3 p-2 rounded-2xl outline-none"
+          label="Imię lub nazwa firmy"
+          className="w-full 2xl:p-3 p-2 rounded-2xl outline-none mt-2"
           {...register(ContactFormFieldsEnum.Name)}
         />
         <FormInput
           error={errors.email}
           label="Email"
-          className="w-full 2xl:p-3 p-2 rounded-2xl outline-none"
+          className="w-full 2xl:p-3 p-2 rounded-2xl outline-none mt-2"
           {...register(ContactFormFieldsEnum.Email)}
         />
         <div className="px-6 mt-4">
@@ -92,7 +92,7 @@ const ContactForm: FC<ContactFormProps> = ({ onFormSubmit }) => {
           </label>
           <textarea
             id={ContactFormFieldsEnum.Text}
-            className="w-full 2xl:p-3 p-2 rounded-2xl outline-none min-h-[100px] text-[15px]"
+            className="w-full 2xl:p-3 p-2 rounded-2xl outline-none min-h-[100px] text-[15px] mt-2"
             {...register(ContactFormFieldsEnum.Text)}
           />
           <button
