@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Profiles = () => {
     return (
-        <div className="text-white flex flex-col gap-12">
+        <div className="text-white flex flex-col gap-12 w-full">
         <div className="flex gap-8">
         <div className="w-32 h-32 relative">
         <Image
@@ -28,12 +28,12 @@ const Profiles = () => {
               layout="fill"
             
             />
-        </div>
-        <div className="2xl:text-[16px] text-[14px]">
-          <h1 className="font-bold">PAWEŁ ŻYWIECKI</h1>
-          <p>733260140</p>
-          <p>WOJ.MAZOWIECKIE</p>
-        </div>
+          </div>
+          <div className="2xl:text-[16px] text-[14px]">
+            <h1 className="font-bold">PAWEŁ ŻYWIECKI</h1>
+            <p>733260140</p>
+            <p>WOJ. MAZOWIECKIE</p>
+            </div>
         </div>
         <div className="flex gap-8">
         <div className="w-32 h-32 relative">

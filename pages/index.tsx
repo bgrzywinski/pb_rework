@@ -25,7 +25,7 @@ export default function Home() {
       </p>
       <Links />
     </div>
-    <div className="flex xl:flex-row flex-col xl:gap-0 gap-16 items-center justify-between mt-8">
+    <div className="flex xl:flex-row flex-col gap-16 items-center justify-between mt-8">
       <div className="max-w-[400px]">
         <div className="max-w-[400px] flex flex-wrap mb-8 2xl:text-[25px] text-[23px] font-bold">
         <h1 className="text-white 2xl:text-[27px] text-[25px]">
