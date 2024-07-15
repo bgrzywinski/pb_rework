@@ -6,7 +6,7 @@ const Profiles = () => {
         <div className="flex gap-8">
         <div className="w-32 h-32 relative">
         <Image
-              src="/assets/pawel.jpg"
+              src="/assets/kamil.jpg"
               alt="ig"
               className="object-cover shadow-2xl shadow-black rounded-[100%] border-1 border-black p-2"
               layout="fill"
@@ -22,7 +22,7 @@ const Profiles = () => {
         <div className="flex gap-8">
         <div className="w-32 h-32 relative">
         <Image
-              src="/assets/pawel.jpg"
+              src="/assets/kamil.jpg"
               alt="ig"
               className="object-cover shadow-2xl shadow-black rounded-[100%] border-1 border-black p-2"
               layout="fill"
