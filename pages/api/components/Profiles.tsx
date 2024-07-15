@@ -2,9 +2,9 @@ import Image from "next/image"
 
 const Profiles = () => {
     return (
-        <div className="text-white flex flex-col gap-12 w-full">
-        <div className="flex gap-8">
-        <div className="w-32 h-32 relative">
+        <div className="text-white flex flex-col gap-12">
+        <div className="flex gap-6">
+        <div className="2xl:w-36 2xl:h-36 w-32 h-32 relative">
         <Image
               src="/assets/kamil.jpg"
               alt="ig"
@@ -19,8 +19,8 @@ const Profiles = () => {
             <p>WOJ. MAZOWIECKIE</p>
             </div>
         </div>
-        <div className="flex gap-8">
-        <div className="w-32 h-32 relative">
+        <div className="flex gap-6">
+        <div className="2xl:w-36 2xl:h-36 w-32 h-32 relative">
         <Image
               src="/assets/kamil.jpg"
               alt="ig"
@@ -35,8 +35,8 @@ const Profiles = () => {
             <p>WOJ. MAZOWIECKIE</p>
             </div>
         </div>
-        <div className="flex gap-8">
-        <div className="w-32 h-32 relative">
+        <div className="flex gap-6">
+        <div className="2xl:w-36 2xl:h-36 w-32 h-32 relative">
         <Image
               src="/assets/bartek.jpg"
               alt="ig"
@@ -46,7 +46,7 @@ const Profiles = () => {
             />
           </div>
           <div className="2xl:text-[16px] text-[14px]">
-          <h1 className="font-bold">BARTEK GRZYWIŃSKI</h1>
+          <h1 className="font-bold min-w-[150px]">BARTEK GRZYWIŃSKI</h1>
           <p>798739756</p>
           <p>WOJ.POMORSKIE</p>
           </div>

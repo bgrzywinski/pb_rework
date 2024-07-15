@@ -63,8 +63,8 @@ export default function Home() {
             passHref
             target="_blank"
           >
-          <div className="flex 2xl:gap-4 gap-2 flex-wrap py-12 cursor-pointer transition transform-y hover:scale-110 2xl:text-[30px] text-[20px] justify-center text-center font-bold">
-          <p className="text-white">KLIKNIJ ABY PRZEJŚĆ DO</p><p className="text-amber-500">OFERTY</p>
+          <div className="flex 2xl:gap-4 gap-2 flex-wrap py-12 cursor-pointer transition transform-y hover:scale-110 2xl:text-[35px] text-[25px] justify-center text-center font-bold mt-6">
+          <p className="text-white font-lucidity">KLIKNIJ ABY PRZEJŚĆ DO</p><p className="text-amber-500 font-lucidity">OFERTY</p>
           </div>
           </Link>
       </div>
