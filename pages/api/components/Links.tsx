@@ -4,7 +4,7 @@ import Image from "next/image";
 const Links = () => {
     return (
         <div className="flex justify-center items-center 2xl:gap-12 gap-6 2xl:my-0 my-12">
-            <h1 className="text-amber-500 font-lucidity">Znajdź nas!</h1>
+            <h1 className="text-amber-500 font-bold text-[20px]">Znajdź nas!</h1>
           <Link
             href="https://www.instagram.com/panstwo_barmanstwo/?hl=af"
             passHref
@@ -38,7 +38,7 @@ const Links = () => {
             passHref
             target="_blank"
           >
-            <p className="text-white cursor-pointer transition transform-y hover:scale-110 font-lucidity">Zobacz co o nas piszą!</p>
+            <p className="text-white cursor-pointer transition transform-y hover:scale-110 font-bold text-[20px]">Zobacz co o nas piszą!</p>
           </Link>
         </div>
     )
